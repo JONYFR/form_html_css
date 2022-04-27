@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-section">
+        <div class="inner-iteam">
+            <form method="GET" action="">
+                First name <br>
+                <input type="text" name="first_name" placeholder="first name" required maxlength="5"><br> Last name <br>
+                <input type="text" name="last_name" placeholder="last name" required maxlength="5"><br> Password <br>
+                <input type="password" name="password" placeholder="password" required><br> Phone <br>
+                <input type="number" name="phone" placeholder="phone" required maxlength="11"><br> Email <br>
+                <input type="email" name="email" placeholder="email" required><br> Date <br>
+                <input type="date" name="date" required><br> Time <br>
+                <input type="time" name="time" required><br> Upload picture <br>
+                <input type="file" name="file" accept="image/*"><br> Select country <br>
+                <select name="country" id="#">
+                <option value="ban">Bangladesh</option>
+                <option value="ind">India</option>
+                <option value="pak">Pakistan</option>
+                <option value="sri">Srilanka</option>
+                <option value="nep">Nepal</option>
+            </select><br> Gender <br>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female <br> Checkbox <br>
+                <input type="checkbox" name="checkbox">HTML
+                <input type="checkbox" name="checkbox">CSS
+                <input type="checkbox" name="checkbox">JS
+                <input type="checkbox" name="checkbox">PHP
+                <input type="checkbox" name="checkbox">LARAVEL <br> Color <br>
+                <input type="color" name="color"><br><br>
+                <input type="submit" name="submit" value="Login">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
